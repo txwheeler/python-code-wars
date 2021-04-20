@@ -1,3 +1,4 @@
+#https://www.codewars.com/kata/5656b6906de340bd1b0000ac
 #my answer
 def longest(a1, a2):
 	# your code
@@ -13,10 +14,10 @@ def longest(a1, a2):
 print(longest('aretheyhere','yestheyarehere'))
 
 #best practices 
-def longest(a1, a2):
+def longest2(a1, a2):
     return "".join(sorted(set(a1 + a2)))
 
-print(longest('aretheyhere','yestheyarehere'))
+print(longest2('aretheyhere','yestheyarehere'))
 
 #example of set function for further understanding
 # initializing list
